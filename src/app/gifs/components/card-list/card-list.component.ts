@@ -3,8 +3,7 @@ import { Gif } from '../../interfaces/gifs.interfaces';
 
 @Component({
   selector: 'gifs-card-list',
-  templateUrl: './card-list.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  templateUrl: './card-list.component.html'
 })
 export class CardListComponent {
 
